@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taskify • Focus Flow</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="background"></div>
+  
+  <div class="app">
+    <header>
+      <div class="logo">
+        <i class="fas fa-tasks"></i>
+        <h1>Taskify</h1>
+      </div>
+      <button id="theme-toggle" class="theme-btn">
+        <i class="fas fa-moon"></i>
+      </button>
+    </header>
+
+    <div class="stats">
+      <div class="progress-circle">
+        <svg viewBox="0 0 36 36">
+          <path d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#e6e6e6" stroke-width="3"/>
+          <path id="progress-path" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="#4facfe" stroke-width="3" stroke-dasharray="0, 100"/>
+        </svg>
+        <span id="progress-text">0%</span>
+      </div>
+      <div class="stat-info">
+        <p id="task-count">0 tasks • 0 completed</p>
+      </div>
+    </div>
+
+    <div class="input-area glass">
+      <input type="text" id="task-input" placeholder="What needs to be done today?" />
+      
+      <div class="extra-inputs">
+        <select id="priority">
+          <option value="medium">Medium</option>
+          <option value="high">High 🔥</option>
+          <option value="low">Low</option>
+        </select>
+        
+        <input type="date" id="due-date" />
+        
+        <select id="category">
+          <option value="Personal">Personal</option>
+          <option value="Work">Work</option>
+          <option value="Health">Health</option>
+          <option value="Study">Study</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <button id="add-btn"><i class="fas fa-plus"></i> Add Task</button>
+    </div>
+
+    <div class="filters glass">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="active">Active</button>
+      <button class="filter-btn" data-filter="completed">Done</button>
+    </div>
+
+    <ul id="task-list" class="glass"></ul>
+
+    <div class="footer glass">
+      <button id="clear-completed">Clear Completed</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
