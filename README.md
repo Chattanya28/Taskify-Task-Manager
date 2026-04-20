@@ -21,7 +21,7 @@ A modern, beautiful, and feature-rich Todo List web application built with **HTM
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://Chattanya28.github.io/taskify)  
+[View Live Demo](https://github.com/Chattanya28/Taskify-Task-Manager)  
 *(Replace with your GitHub Pages link after deployment)*
 
 ## 📸 Screenshots
@@ -41,4 +41,4 @@ A modern, beautiful, and feature-rich Todo List web application built with **HTM
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/taskify.git
+   git clone https://github.com/Chattanya28/Taskify-Task-Manager.git
