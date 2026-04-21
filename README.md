@@ -2,7 +2,7 @@
 
 A modern, beautiful, and feature-rich Todo List web application built with **HTML, CSS, and JavaScript**.
 
-![Taskify Preview](https://via.placeholder.com/800x400/667eea/ffffff?text=Taskify+Preview)
+![Taskify Preview](https://taskfytm.netlify.app/)
 
 ## ✨ Features
 
