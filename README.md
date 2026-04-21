@@ -21,8 +21,8 @@ A modern, beautiful, and feature-rich Todo List web application built with **HTM
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://github.com/Chattanya28/Taskify-Task-Manager)  
-*(Replace with your GitHub Pages link after deployment)*
+[View Live Demo](https://taskfytm.netlify.app/)  
+
 
 ## 📸 Screenshots
 
